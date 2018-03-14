@@ -1,0 +1,47 @@
+/* Your CSS rules go here */
+
+body {
+  font-family: Impact;
+  font-size: 22px;
+  width: 1060px;
+  margin: 0 auto;}
+
+#content {
+  overflow: auto;
+  height:100%;}
+
+#nav, #feature, #footer {
+  background-color: #efefef;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;}
+
+.articleColumn1, .articleColumn2, .articleColumn3, .articleColumn4 {
+  font-family: Georgia;
+  font-size: 12px;
+  background-color:  #efefef;
+  width: 250px;
+  float: left;
+  margin: 5px;}
+
+li{
+  display: inline;
+  padding: 50px;}
+/*
+h1{
+  color: red;
+  border-bottom: 10px solid green;
+  padding-bottom: 6px
+}
+
+p{
+  border: solid 3px green;
+  padding: 6px;
+}
+li{
+  font-weight: bold;
+}
+.highlighter{
+  background-color: pink;
+}
+.framed{border: solid 3px green; padding: 12px;} */
